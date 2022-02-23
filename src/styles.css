@@ -2,3 +2,23 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.nav-card {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-card form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.nav-card form div {
+  display: flex;
+  gap: 16px;
+}
